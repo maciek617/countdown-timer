@@ -20,7 +20,7 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/maciek617/countdown-timer)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://maciek617.github.io/countdown-timer/)
 
 ### Built with
 
@@ -28,6 +28,7 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- JavaScript
 
 ### What I learned
 
