@@ -19,5 +19,5 @@ const setTime = () => {
     hour < 10 ? hours.textContent = '0' + hour : hours.textContent = hour
     day < 10 ? days.textContent = '0' + day : days.textContent = day
 }
-
+setTime();
 setInterval(setTime, 1000)
