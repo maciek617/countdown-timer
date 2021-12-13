@@ -1,0 +1,28 @@
+.app-title {
+    padding-top: 200px;
+    font-size: 5em;
+}
+
+.counter {
+    width: 700px;
+}
+
+span {
+    width: 150px;
+    height: 150px;
+    font-size: 4em;
+    line-height: 150px;
+}
+
+p {
+    margin-top: 12px;
+    font-size: 1em;
+}
+
+.hills {
+    width: 100%;
+}
+
+.social img {
+    width: 50px;
+}

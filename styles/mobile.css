@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 14px;
+    background-color: hsl(235, 16%, 14%);
+}
+
+.app-container {
+    min-height: 100vh;
+    background-image: url(../images/bg-stars.svg);
+}
+
+.app-title {
+    padding-top: 70px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.counter {
+    width: 320px;
+    margin: 80px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    text-align: center;
+    z-index: 99;
+}
+
+span {
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 2.7em;
+    border-radius: 5px;
+    line-height: 70px;
+    background-color: hsl(236, 21%, 26%);
+    color: hsl(345, 95%, 68%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    margin-top: 10px;
+    font-size: 0.6em;
+    letter-spacing: 2px;
+    color: hsl(237, 18%, 59%);
+}
+
+.social-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hills {
+    display: block;
+}
+
+.social {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social img {
+    width: 40px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .4));
+}
+
+.attribution {
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
